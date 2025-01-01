@@ -415,7 +415,7 @@ action:
             default:
               - service: light.toggle
                 entity_id: !input light
-                data:
+#                data:
 #                  transition: '{{ light_transition / 1000 }}'
       - conditions: '{{ action == turn_on }}'
         sequence:
@@ -430,7 +430,7 @@ action:
             default:
               - service: light.turn_on
                 entity_id: !input light
-                data:
+#                data:
 #                  transition: '{{ light_transition / 1000 }}'
       - conditions: '{{ action == turn_off }}'
         sequence:
