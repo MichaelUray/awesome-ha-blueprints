@@ -1,8 +1,8 @@
 # Blueprint metadata
 blueprint:
-  name: Hook - Light
+  name: Hook - Light (without transition)
   description: |
-    # Hook - Light
+    # Hook - Light (without transition which causes problems on some Eglo lights)
 
     Hook automation which allows to control a light. Supports brightness and color control both for white temperature and rgb lights. Features may vary depending on the selected Controller.
 
